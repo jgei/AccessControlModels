@@ -9,18 +9,18 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_OQAMMK4pEe2YTbXzBXvIAA" name="Group">
     <generalization xmi:type="uml:Generalization" xmi:id="_bJvewK4pEe2YTbXzBXvIAA" general="_JbfUUK4pEe2YTbXzBXvIAA"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_GtOh0K4qEe2YTbXzBXvIAA" name="subject" type="_JbfUUK4pEe2YTbXzBXvIAA" aggregation="shared" association="_Gsx14K4qEe2YTbXzBXvIAA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GtSzQK4qEe2YTbXzBXvIAA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GtUocK4qEe2YTbXzBXvIAA" value="*"/>
-    </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_Gsx14K4qEe2YTbXzBXvIAA" name="SubjectGroup" memberEnd="_GtOh0K4qEe2YTbXzBXvIAA _GtV2kK4qEe2YTbXzBXvIAA">
+  <packagedElement xmi:type="uml:Association" xmi:id="_Gsx14K4qEe2YTbXzBXvIAA" name="SubjectGroup" visibility="public" memberEnd="_GtOh0K4qEe2YTbXzBXvIAA _GtV2kK4qEe2YTbXzBXvIAA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GtF-8K4qEe2YTbXzBXvIAA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GtK3cK4qEe2YTbXzBXvIAA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_GtV2kK4qEe2YTbXzBXvIAA" name="group" type="_OQAMMK4pEe2YTbXzBXvIAA" association="_Gsx14K4qEe2YTbXzBXvIAA">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OpvFYK4qEe2YTbXzBXvIAA"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Op2aIK4qEe2YTbXzBXvIAA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GtOh0K4qEe2YTbXzBXvIAA" name="subject" type="_JbfUUK4pEe2YTbXzBXvIAA" aggregation="shared" association="_Gsx14K4qEe2YTbXzBXvIAA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GtSzQK4qEe2YTbXzBXvIAA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GtUocK4qEe2YTbXzBXvIAA" value="*"/>
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_o4yMMK4qEe2YTbXzBXvIAA" name="Role"/>

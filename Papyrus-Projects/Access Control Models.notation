@@ -656,7 +656,10 @@
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_BCr2UK4pEe2YTbXzBXvIAA" type="PapyrusUMLClassDiagram" name="Attribute Based Access Control Model" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_PI0lYK47Ee2YTbXzBXvIAA" type="Class_Shape">
+    <children xmi:type="notation:Shape" xmi:id="_PI0lYK47Ee2YTbXzBXvIAA" type="Class_Shape" fontColor="9983" fontName="Avenir Next" bold="true" fillColor="14672369" lineColor="9983">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0yUEUK49Ee2YTbXzBXvIAA" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0yV5gK49Ee2YTbXzBXvIAA" key="bold" value="true"/>
+      </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_PI2akK47Ee2YTbXzBXvIAA" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_PI2aka47Ee2YTbXzBXvIAA" type="Class_FloatingNameLabel">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_PI3BoK47Ee2YTbXzBXvIAA" y="15"/>

@@ -212,4 +212,21 @@
     </ownedEnd>
     <ownedEnd xmi:type="uml:Property" xmi:id="_RLc5kK49Ee2YTbXzBXvIAA" name="operation" type="_5KEkMK48Ee2YTbXzBXvIAA" association="_RK6HAK49Ee2YTbXzBXvIAA"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_R1rl8LA4Ee2XbI5Ddx1_TQ" name="Environment"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TqLpcLA4Ee2XbI5Ddx1_TQ" name="EnvironmentAttribute">
+    <generalization xmi:type="uml:Generalization" xmi:id="_WOwCgLA5Ee2XbI5Ddx1_TQ" general="_PIenIK47Ee2YTbXzBXvIAA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3UVYwLA4Ee2XbI5Ddx1_TQ" memberEnd="_3UWm4LA4Ee2XbI5Ddx1_TQ _3UXN8LA4Ee2XbI5Ddx1_TQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3UV_0LA4Ee2XbI5Ddx1_TQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3UV_0bA4Ee2XbI5Ddx1_TQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3UXN8LA4Ee2XbI5Ddx1_TQ" name="environment" type="_R1rl8LA4Ee2XbI5Ddx1_TQ" association="_3UVYwLA4Ee2XbI5Ddx1_TQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__PBXYLA4Ee2XbI5Ddx1_TQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__PSdILA4Ee2XbI5Ddx1_TQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3UWm4LA4Ee2XbI5Ddx1_TQ" name="environmentattribute" type="_TqLpcLA4Ee2XbI5Ddx1_TQ" association="_3UVYwLA4Ee2XbI5Ddx1_TQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-0qWoLA4Ee2XbI5Ddx1_TQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-0y5gLA4Ee2XbI5Ddx1_TQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>

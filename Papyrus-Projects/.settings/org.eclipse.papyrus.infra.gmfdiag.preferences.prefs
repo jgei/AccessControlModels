@@ -1,0 +1,7 @@
+PAPYRUS_EDITOR.color.gradient=RGB {255, 255, 255};RGB {255, 255, 255};0;0
+PAPYRUS_EDITOR.font=1|Nimbus Sans|8.0|0|GTK|1|;
+PAPYRUS_EDITOR.rulergrid.gridspacing=0.25
+PAPYRUS_EDITOR.rulergrid.rulerunit=1
+PAPYRUS_EDITOR.rulergrid.snaptogrid=false
+PAPYRUS_EDITOR.rulergrid.viewrulers=true
+eclipse.preferences.version=1

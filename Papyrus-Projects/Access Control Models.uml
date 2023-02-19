@@ -55,12 +55,12 @@
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aBYLsK4tEe2YTbXzBXvIAA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aBaA4K4tEe2YTbXzBXvIAA" key="nature" value="UML_Nature"/>
     </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aBgukK4tEe2YTbXzBXvIAA" name="role" type="_o4yMMK4qEe2YTbXzBXvIAA" association="_aBMlgK4tEe2YTbXzBXvIAA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kOEpMK4tEe2YTbXzBXvIAA" value="*"/>
+    </ownedEnd>
     <ownedEnd xmi:type="uml:Property" xmi:id="_aBb2EK4tEe2YTbXzBXvIAA" name="permission" type="_VelV8K4tEe2YTbXzBXvIAA" association="_aBMlgK4tEe2YTbXzBXvIAA">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lNeQsK4tEe2YTbXzBXvIAA"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_OEK4tEe2YTbXzBXvIAA" value="*"/>
-    </ownedEnd>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_aBgukK4tEe2YTbXzBXvIAA" name="role" type="_o4yMMK4qEe2YTbXzBXvIAA" association="_aBMlgK4tEe2YTbXzBXvIAA">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kOEpMK4tEe2YTbXzBXvIAA" value="*"/>
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_48q_MK4tEe2YTbXzBXvIAA" name="AuthorizationConstraint"/>
@@ -68,12 +68,12 @@
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DHKdQK4uEe2YTbXzBXvIAA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DHOHoK4uEe2YTbXzBXvIAA" key="nature" value="UML_Nature"/>
     </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DHlUAK4uEe2YTbXzBXvIAA" name="authorizationconstraint" type="_48q_MK4tEe2YTbXzBXvIAA" association="_DG7zwK4uEe2YTbXzBXvIAA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LfzjMK4uEe2YTbXzBXvIAA"/>
+    </ownedEnd>
     <ownedEnd xmi:type="uml:Property" xmi:id="_DHP80K4uEe2YTbXzBXvIAA" name="permission" type="_VelV8K4tEe2YTbXzBXvIAA" association="_DG7zwK4uEe2YTbXzBXvIAA">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MPO1AK4uEe2YTbXzBXvIAA"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MPR4UK4uEe2YTbXzBXvIAA" value="*"/>
-    </ownedEnd>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_DHlUAK4uEe2YTbXzBXvIAA" name="authorizationconstraint" type="_48q_MK4tEe2YTbXzBXvIAA" association="_DG7zwK4uEe2YTbXzBXvIAA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LfzjMK4uEe2YTbXzBXvIAA"/>
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_0iPl0K4uEe2YTbXzBXvIAA" name="Action"/>
